@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+        
+        .wapper {
+            height: 800px;
+            width: 1089px;
+            border: 1px solid rgb(227, 202, 253);
+        }
+        
+        nav {
+            height: 50px;
+            width: 1089px;
+            background-color: rgb(184, 253, 253);
+        }
+        
+        header {
+            height: 150px;
+            width: 1089px;
+            background-color: rgb(250, 209, 228);
+        }
+        
+        header img {
+            width: 100%;
+            height: auto;
+            max-height: 150px;
+            object-fit: cover;
+        }
+        
+        .content {
+            height: 800px;
+            width: 1089px;
+            background-color: 1px solid rgb(171, 231, 241);
+        }
+        
+        .menu_left {
+            height: 500px;
+            width: 20%;
+            background-color: rgb(228, 225, 189);
+            float: left;
+        }
+        
+        .ct1 {
+            height: 500px;
+            width: 40%;
+            background-color: rgb(233, 179, 179);
+            float: left;
+        }
+        
+        .ct2 {
+            height: 500px;
+            width: 40%;
+            background-color: rgb(186, 195, 247);
+            float: left;
+        }
+        
+        .menu li {
+            height: 50px;
+            width: 160px;
+            background-color: rgb(181, 245, 185);
+            float: left;
+            line-height: 50px;
+            text-align: center;
+            list-style: none;
+        }
+        
+        li a {
+            text-decoration: none;
+            font-weight: bolder;
+            color: rgb(236, 176, 176);
+        }
+        
+        li:hover {
+            background-color: blanchedalmond;
+        }
+        
+        li:hover>a {
+            background-color: rgb(202, 155, 121);
+        }
+        
+        .menu li .sub_menu {
+            display: none;
+        }
+        
+        li:hover>.sub_menu {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li><a href="https://iuh.edu.vn">HOME</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">HOTLINE</a>
+                    <ul class="sub_menu">
+                        <li><a href=""> 1</a></li>
+                        <li><a href=""> 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">SUPPORT</a></li>
+            </ul>
+        </nav>
+        <header></header>
+        <div class="content">
+            <div class="menu_left">
+                <ul class="menu">
+                    <li><a href="#">PTien</a></li>
+                    <li><a href="#">PTien xinh</a></li>
+                    <li><a href="#">Sinh Vien IUH</a></li>
+                    <li><a href="#">Hoc gioi</a></li>
+                    <li><a href="#">GPA </a></li>
+                </ul>
+            </div>
+            <div class="ct1"></div>
+            <div class="ct2"></div>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
